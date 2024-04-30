@@ -1,4 +1,19 @@
-main {
+nav {
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  h1 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  main {
     max-width: 840px;
   }
   
@@ -31,3 +46,4 @@ main {
     border-top: 1px solid #000;
     text-align: center;
   }
+  
