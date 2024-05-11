@@ -34,13 +34,24 @@ nav.sociallinks a {
 }
 
 
+nav {
+  background-color: var(--nav-background-color);
+  font-size: 1.2rem;
+  display: flex;
+}
+
+nav a {
+  display: block;
+  color: var(--nav-link-color);
+  text-decoration: none;
+  padding: 1rem;
+}
 
 
 nav.sociallinks img {
   width: 20px; 
   height: auto; 
 }
-
 
 /* Limit width of the page */
 body {
