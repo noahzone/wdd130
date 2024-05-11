@@ -62,6 +62,30 @@ body {
 }
 
 
+/* Hero Section */
+header {
+  position: relative;
+  height: 400px; /* Adjust as needed */
+  background-image: url('path/to/your/hero-image.jpg'); /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+}
+
+header h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff; /* Adjust text color as needed */
+  font-size: 3rem; /* Adjust font size as needed */
+  text-align: center;
+}
+
+/* Float */
+.company-info img {
+  float: right;
+  margin-left: 20px; /* Adjust spacing as needed */
+}
 
 
 
