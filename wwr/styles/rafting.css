@@ -58,7 +58,7 @@ nav.sociallinks img {
 .hero img {
   display: block;
   width: 100%;
-  height: auto; /* Maintains aspect ratio */
+  height: auto; 
 }
 
 .hero-content {
@@ -85,20 +85,20 @@ nav.sociallinks img {
 
 .article-container {
   position: absolute;
-  top: 415px; /* Adjust as needed to position over the hero section */
+  top: 415px;
   left: 50%;
   transform: translateX(-50%);
-  width: 600px; /* Set a fixed width */
-  z-index: 2; /* Ensure the article container is on top of the hero section */
-  background-color: transparent; /* Transparent background */
+  width: 600px;
+  z-index: 2; 
+  background-color: transparent;
 }
 
 article {
-  background-color: rgba(255, 255, 255, 0.8); /* Background color with opacity for readability */
+  background-color: rgba(255, 255, 255, 0.8); 
   padding: 20px;
   width: 100%; 
   box-sizing: border-box;
-  font-size: 0.875rem; /* Adjust font size for smaller text */
+  font-size: 0.875rem; 
 }
 
 article p {
