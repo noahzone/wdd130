@@ -85,10 +85,10 @@ nav.sociallinks img {
 
 .article-container {
   position: absolute;
-  top: 450px; /* Adjust as needed to position over the hero section */
+  top: 415px; /* Adjust as needed to position over the hero section */
   left: 50%;
   transform: translateX(-50%);
-  width: 800px; /* Set a fixed width */
+  width: 600px; /* Set a fixed width */
   z-index: 2; /* Ensure the article container is on top of the hero section */
   background-color: transparent; /* Transparent background */
 }
@@ -98,6 +98,7 @@ article {
   padding: 20px;
   width: 100%; 
   box-sizing: border-box;
+  font-size: 0.875rem; /* Adjust font size for smaller text */
 }
 
 article p {
