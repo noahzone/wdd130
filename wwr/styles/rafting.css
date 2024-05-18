@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Lato:wght@400;700&family=Oswald:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Lato:wght@400;700&display=swap');
 
 :root {
   --primary-color: #060B0F;
@@ -8,13 +8,14 @@
 
   --heading-font: 'Open Sans', sans-serif;
   --paragraph-font: 'Lato', sans-serif;
-
-  --nav-background-color: #060B0F;
-  --nav-link-color: #FFBF00;
-  --nav-hover-link-color: #060B0F;
-  --nav-hover-background-color: #FFBF00;
 }
 
+body {
+  font-family: var(--paragraph-font);
+  max-width: 800px; 
+  margin: 0 auto; 
+  padding: 20px;
+}
 
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
@@ -23,16 +24,13 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
   color: var(--primary-color); 
-  padding: 25px;
 }
 
-/* Social media links */
 nav.sociallinks a {
   text-decoration: none; 
   display: inline-block; 
   margin-right: 10px; 
 }
-
 
 nav {
   background-color: var(--nav-background-color);
@@ -47,46 +45,66 @@ nav a {
   padding: 1rem;
 }
 
-
 nav.sociallinks img {
   width: 20px; 
   height: auto; 
 }
 
-/* Limit width of the page */
-body {
-  font-family: var(--paragraph-font);
-  max-width: 800px; 
-  margin: 0 auto; 
-  padding: 20px;
-}
-
-
 /* Hero Section */
-header {
+.hero {
   position: relative;
-  height: 400px; 
-  background-image: url('images/hero_image.png');
-  background-size: cover;
-  background-position: center;
 }
 
-header h1 {
+.hero img {
+  display: block;
+  width: 100%;
+  height: auto; /* Maintains aspect ratio */
+}
+
+/* Hero Content */
+.hero-content {
   position: absolute;
-  top: 50%;
+  top: 0;
   left: 50%;
-  transform: translate(-50%, -50%);
-  color: #fff; 
-  font-size: 3rem; 
+  transform: translateX(-50%);
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 40px;
+  width: 100%;
+  box-sizing: border-box;
   text-align: center;
 }
 
+.hero-content h1 {
+  color: var(--primary-color);
+}
+
+/* Article Container */
+.article-container {
+  position: relative;
+  margin-top: 20px;
+}
+
+/* Individual Articles */
+article {
+  background-color: rgba(255, 191, 0, 0.8); /* Background color with opacity for readability */
+  padding: 20px;
+  color: var(--primary-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+article p {
+  margin-left: 20px;
+  margin-bottom: 10px; /* Margin bottom for paragraphs */
+}
+
 .company-info img {
-  float: right;
+  width: 150px;
+  height: auto;
   margin-left: 20px;
 }
 
-
-
-
-
+p {
+  margin-bottom: 10px;
+}
