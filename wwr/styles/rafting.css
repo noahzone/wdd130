@@ -74,7 +74,12 @@ nav.sociallinks img {
   text-align: center;
 }
 
+/* H1 Heading */
 .hero-content h1 {
+  position: absolute;
+  top: 300px; /* Adjust as needed */
+  left: 50%;
+  transform: translateX(-50%);
   color: var(--primary-color);
 }
 
@@ -86,20 +91,23 @@ nav.sociallinks img {
 
 /* Individual Articles */
 article {
+  position: absolute;
+  top: 400px; /* Adjust as needed */
+  left: 50%;
+  transform: translateX(-50%);
   background-color: rgba(255, 191, 0, 0.8); /* Background color with opacity for readability */
   padding: 20px;
+  width: 80%; /* Adjust width as needed */
+  box-sizing: border-box;
   color: var(--primary-color);
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
 }
 
 article p {
-  margin-left: 20px;
-  margin-bottom: 10px; /* Margin bottom for paragraphs */
+  margin-right: 170px; /* Adjust based on image width */
 }
 
-.company-info img {
+article img {
+  float: right;
   width: 150px;
   height: auto;
   margin-left: 20px;
