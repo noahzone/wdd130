@@ -61,7 +61,6 @@ nav.sociallinks img {
   height: auto; /* Maintains aspect ratio */
 }
 
-/* Hero Content */
 .hero-content {
   position: absolute;
   top: 0;
@@ -74,36 +73,35 @@ nav.sociallinks img {
   text-align: center;
 }
 
-/* H1 Heading */
+
 .hero-content h1 {
   position: absolute;
-  top: 300px; /* Adjust as needed */
+  top: -5px; 
   left: 50%;
   transform: translateX(-50%);
-  color: var(--primary-color);
+  color: var(--secondary-color);
+  font-size: 2rem;
+  white-space: nowrap; 
 }
 
-/* Article Container */
 .article-container {
   position: relative;
   margin-top: 20px;
 }
 
-/* Individual Articles */
 article {
   position: absolute;
-  top: 400px; /* Adjust as needed */
+  top: 450px;
   left: 50%;
   transform: translateX(-50%);
-  background-color: rgba(255, 191, 0, 0.8); /* Background color with opacity for readability */
+  background-color: rgba(255, 255, 255, 0.8);
   padding: 20px;
-  width: 80%; /* Adjust width as needed */
+  width: 63%; 
   box-sizing: border-box;
-  color: var(--primary-color);
 }
 
 article p {
-  margin-right: 170px; /* Adjust based on image width */
+  margin-right: 170px; 
 }
 
 article img {
