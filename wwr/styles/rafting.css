@@ -32,22 +32,38 @@ nav.sociallinks a {
   margin-right: 10px; 
 }
 
+/* Header Section */
+header {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 nav {
   background-color: var(--nav-background-color);
   font-size: 1.2rem;
   display: flex;
+  align-items: center; /* Align items vertically in flex container */
 }
 
 nav a {
   display: block;
-  color: var(--nav-link-color);
+  color: var(--primaru-color);
+  background:var(--secondary-color);
   text-decoration: none;
   padding: 1rem;
 }
 
 nav.sociallinks img {
-  width: 20px; 
-  height: auto; 
+  width: 20px;
+  height: auto;
 }
 
 /* Hero Section */
@@ -127,3 +143,79 @@ section figcaption {
   font-size: 0.9rem;
   color: var(--primary-color);
 }
+
+
+/* History Section */
+.history-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.history-item {
+  flex: 0 1 calc(33.33% - 20px);
+  margin-bottom: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.history-item img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.history-item h3 {
+  color: var(--secondary-color);
+}
+
+.history-item p {
+  color: var(--primary-color);
+}
+
+/* Adventures Section */
+.adventure-section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.adventure-section figure {
+  flex: 0 1 calc(20% - 20px); 
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.adventure-section img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.adventure-section figcaption {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: var(--primary-color);
+}
+
+
+footer {
+  display: flex;
+  justify-content: space-between; /* Align items to the left and right */
+  align-items: center; /* Center items vertically */
+  padding: 20px;
+}
+
+.sociallinks {
+  display: flex;
+}
+
+.sociallinks a {
+  margin-left: 10px; /* Add space between social links */
+  background-color: transparent; /* Remove background color */
+  padding: 10px; /* Adjust padding */
+}
+
