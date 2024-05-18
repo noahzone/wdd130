@@ -50,7 +50,7 @@ nav {
   background-color: var(--nav-background-color);
   font-size: 1.2rem;
   display: flex;
-  align-items: center; /* Align items vertically in flex container */
+  align-items: center;
 }
 
 nav a {
@@ -204,8 +204,8 @@ section figcaption {
 
 footer {
   display: flex;
-  justify-content: space-between; /* Align items to the left and right */
-  align-items: center; /* Center items vertically */
+  justify-content: space-between; 
+  align-items: center; 
   padding: 20px;
 }
 
@@ -214,8 +214,8 @@ footer {
 }
 
 .sociallinks a {
-  margin-left: 10px; /* Add space between social links */
-  background-color: transparent; /* Remove background color */
-  padding: 10px; /* Adjust padding */
+  margin-left: 10px; 
+  background-color: transparent;
+  padding: 10px; 
 }
 
