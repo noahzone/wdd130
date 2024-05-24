@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Life Adventures Rafting Company</title>
+    <meta name="description" content="Get in touch with Life Adventures Rafting Company for inquiries, bookings, and more.">
+    <meta name="author" content="Noah Anderson">
+    <link rel="stylesheet" href="styles/rafting.css">
+    <style>
+        /* Footer */
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        main {
+            flex-grow: 1;
+        }
+
+        footer {
+            margin-top: auto;
+            background-color: #f2f2f2;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .company-info {
+            margin: 20px auto;
+            max-width: 600px;
+            text-align: center;
+        }
+
+        .company-info p {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.jpg" alt="Rafting Site Logo">
+        </div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="article-container">
+            <!-- Employee Profiles -->
+            <section class="employee-profiles">
+                <div class="employee">
+                    <img src="images/employee1.jpeg" alt="Employee 1">
+                    <figcaption>John Stern<br>Adventure Guide</figcaption>
+                </div>
+                <div class="employee">
+                    <img src="images/employee2.jpeg" alt="Employee 2">
+                    <figcaption>Brad Smith<br>River Expert</figcaption>
+                </div>
+                <div class="employee">
+                    <img src="images/employee3.jpeg" alt="Employee 3">
+                    <figcaption>Jason Johnson<br>Outdoor Enthusiast</figcaption>
+                </div>
+            </section>
+
+            <!-- Embedding a Google Map -->
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.926327516711!2d-73.99484718459219!3d40.728721180922904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259f76d1c22e9%3A0x47daecbb63b2be33!2s123%20Adventure%20Ave%2C%20River%20City%2C%20RA%2012345%2C%20USA!5e0!3m2!1sen!2suk!4v1613044822864!5m2!1sen!2suk" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+
+            <!-- Company Information -->
+            <section class="company-info">
+                <h2>Contact Information</h2>
+                <p>Address: 123 Wavy Ave, Park City, UT 84607</p>
+                <p>Phone: 208-270-1690</p>
+                <p>Email: info@lifeadventuresrafting.com</p>
+            </section>
+
+            <!-- Contact Form -->
+<!-- Contact Form -->
+            <section class="contact-form">
+                <h2>Send us a Message</h2>
+                <form action="#" method="post">
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" required><br>
+
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" name="email" required><br>
+
+                    <label for="purpose">Purpose of Message:</label><br>
+                    <input type="radio" id="general" name="purpose" value="General Inquiry" required>
+                    <label for="general">General Inquiry</label><br>
+
+                    <input type="radio" id="reservation" name="purpose" value="Reservation Question">
+                    <label for="reservation">Reservation Question</label><br>
+
+                    <input type="radio" id="suggestion" name="purpose" value="Website Suggestion">
+                    <label for="suggestion">Website Suggestion</label><br>
+
+                    <label for="message">Your Message:</label><br>
+                    <textarea id="message" name="message" rows="4" cols="50" required></textarea><br>
+
+                    <input type="checkbox" id="newsletter" name="newsletter" value="subscribe">
+                    <label for="newsletter">Subscribe me to the monthly newsletter</label><br>
+
+                    <input type="submit" value="Send Message">
+                </form>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Life Adventures Rafting Company. Designed by Noah Anderson.</p>
+        <nav class="sociallinks">
+            <a href="https://facebook.com">
+                <img src="images/facebook.webp" alt="Facebook">
+            </a>
+            <a href="https://twitter.com">
+                <img src="images/twitter.webp" alt="Twitter">
+            </a>
+            <a href="https://instagram.com">
+              <img src="images/instagram.webp" alt="Instagram">
+          </a>
+          <a href="https://app.moqups.com/bpeoS4mJKRDNiUGSEf6TCq94E92S8de2/view/page/ad64222d5" target="_blank">Contact Us Wireframe</a>
+      </nav>
+  </footer>
+</body>
+</html>
+
