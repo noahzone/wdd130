@@ -248,3 +248,52 @@ footer {
 .company-info p {
   margin-bottom: 10px;
 }
+
+.adventure-section {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+}
+
+.adventure-section figure {
+  flex: 1; 
+  margin: 0 5px; 
+}
+
+.adventure-section img {
+  width: 100%; 
+  height: auto;
+  border-radius: 5px; 
+}
+
+.adventure-section figcaption {
+  text-align: center; 
+  margin-top: 5px; 
+}
+
+
+.history-section {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  flex-wrap: wrap; 
+  gap: 20px; 
+}
+
+.history-section figure {
+  flex: 1 1 200px; 
+  margin: 0 10px; 
+}
+
+.history-section img {
+  width: 100%; 
+  max-width: 100%; 
+  height: auto;
+  border-radius: 5px; 
+}
+
+.history-section figcaption {
+  text-align: center; 
+  margin-top: 5px; 
+}
+
