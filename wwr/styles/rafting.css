@@ -121,10 +121,14 @@ nav.sociallinks img {
   display: inline-block;
   margin-top: 1em;
   padding: 1em 2em;
-  background-color: var(--accent2-color);
+  background-color: var(--secondary-color);
   color: white;
   text-decoration: none;
   border-radius: 5px;
+}
+
+.call-to-action p {
+  color: white;
 }
 
 .content-grid {
