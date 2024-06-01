@@ -88,44 +88,114 @@ nav.sociallinks img {
   display: block;
   width: 100%;
   height: auto;
+  max-height: 600px; 
+  margin-top: 10px; 
 }
 
-.hero-content {
+.hero-text {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: rgba(255, 255, 255, 0.9);
-  padding: 20px;
-  box-sizing: border-box;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 1em;
+  color: #fff;
   text-align: center;
   border-radius: 10px;
 }
 
-.hero-content h1 {
-  color: var(--secondary-color);
-  font-size: 2rem;
+.newsletter-signup {
+  text-align: center;
+  padding: 2em;
+  background-color: #f4f4f4;
 }
 
-.article-container {
-  max-width: 800px;
-  margin: 20px auto;
-  padding: 20px;
-  background-color: #fff;
-  border-radius: 10px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+.call-to-action {
+  text-align: center;
+  padding: 2em;
+  background-color: var(--primary-color);
+  color: white;
 }
 
-article img {
-  width: 100%;
-  max-width: 150px;
+.call-to-action .cta-button {
+  display: inline-block;
+  margin-top: 1em;
+  padding: 1em 2em;
+  background-color: var(--accent2-color);
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.content-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2em;
+  padding: 2em;
+  background-color: #f4f4f4;
+}
+
+.content-grid .grid-item {
+  text-align: center;
+}
+
+.content-grid .grid-item img {
+  width: 80%; 
+  max-width: 300px; 
   height: auto;
   border-radius: 5px;
-  margin: 0 auto 20px;
 }
 
-article p {
-  margin-bottom: 20px;
+footer {
+  background-color: #fff; 
+  padding: 20px;
+  text-align: center;
+  color: var(--text-color); 
+}
+
+footer .sociallinks img {
+  height: 30px;
+  margin: 0 0.5em;
+}
+
+.trip-description {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.trip {
+  flex: 1;
+  margin: 0 10px;
+  text-align: center;
+}
+
+.trip img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 5px;
+}
+
+.trip-table table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.trip-table th,
+.trip-table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+.trip-table th {
+  background-color: #f2f2f2;
+}
+
+.trip-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
 }
 
 .employee-profiles {
@@ -144,15 +214,6 @@ article p {
   height: auto;
   border-radius: 50%;
 }
-
-.map-container {
-  width: 100%;
-  height: 300px;
-  margin-top: 20px;
-  overflow: hidden;
-  border-radius: 10px;
-}
-
 .map-container iframe {
   width: 100%;
   height: 100%;
@@ -206,37 +267,13 @@ article p {
   background-color: #e74c3c; 
 }
 
-footer {
-  background-color: #fff; 
+.article-container {
+  max-width: 800px;
+  margin: 20px auto;
   padding: 20px;
-  text-align: center;
-  color: var(--text-color); 
-}
-
-.footer-link {
-  color: var(--text-color); 
-  text-decoration: none;
-}
-
-.footer-link:hover {
-  color: var(--accent1-color); 
-}
-
-body {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
-
-main {
-  flex-grow: 1;
-}
-
-footer {
-  margin-top: auto;
-  background-color: #f2f2f2;
-  padding: 20px;
-  text-align: center;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .company-info {
@@ -296,4 +333,3 @@ footer {
   text-align: center; 
   margin-top: 5px; 
 }
-
